@@ -1,14 +1,9 @@
 import './Contact.css'
-import React, { Component } from 'react';
 
-class Contact extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        );
-    }
+const Contact = () => {
+    return (
+        <section id='contact'></section>
+    );
 }
 
 export default Contact;

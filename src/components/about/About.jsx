@@ -1,15 +1,9 @@
 import './About.css'
 
-import React, { Component } from 'react';
-
-class About extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        );
-    }
+const About = () => {
+    return (
+        <section id='about'>About</section>
+    );
 }
 
 export default About;

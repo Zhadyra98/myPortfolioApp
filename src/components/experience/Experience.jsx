@@ -1,14 +1,11 @@
 import './Experience.css'
-import React, { Component } from 'react';
 
-class Experience extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        );
-    }
+const Experience = () =>  {
+    return (
+        <section id='experinece'>
+            
+        </section>
+    );
 }
 
 export default Experience;
