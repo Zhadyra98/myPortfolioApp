@@ -16,24 +16,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about__content">
-                    <div className="about__cards">
-                        <article className="about__card">
-                            <FaAward className='about__icon'/>
-                            <h5>Experience</h5>
-                            <small>working experience</small>
-                        </article>
-                        <article className="about__card">
-                            <FiUsers className='about__icon'/>
-                            <h5>Clients</h5>
-                            <small>200 + efsd</small>
-                        </article>
-                        <article className="about__card">
-                            <BsFolderCheck className='about__icon'/>
-                            <h5>Projects</h5>
-                            <small>done projects</small>
-                        </article>
-                    </div>
-                    <p>fjgntegjnegj jfdggggggggggggggm ufinjgmfogmfdlf iefgnf</p>
+                    <p>Accurate front end developer with a passion for responsive website design and a firm believer in the mobile-first approach. Used framework for front end development such as React. Furthermore, QA Automation Engineer in the past with a year of automated testing experience. Currently, I am looking for new opportunities in front-end development. </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
             </div>

@@ -1,53 +1,47 @@
 import './Portfolio.css';
-import IMG1 from '../../assets/exp1.PNG';
-import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
+import IMG1 from '../../assets/portfolio1.PNG';
+import IMG2 from '../../assets/portfolio2.PNG';
+import IMG3 from '../../assets/portfolio3.PNG';
+import IMG4 from '../../assets/portfolio4.PNG';
 import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+import IMG6 from '../../assets/portfolio6.PNG';
 
 const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Foods website',
-        github: 'https://github.com/Zhadyra98/food_js_practice',
-        demo: 'https://react-icons.github.io/react-icons/search?q=check'
+        title: 'Cozy House',
+        github: 'https://github.com/Zhadyra98/shelter'
     },
     {
         id: 2,
-        image: IMG1,
-        title: 'Foods website',
-        github: 'https://github.com/Zhadyra98/food_js_practice',
-        demo: 'https://react-icons.github.io/react-icons/search?q=check'
+        image: IMG2,
+        title: 'Discover amazing places in Japan',
+        github: 'https://github.com/Zhadyra98/landing-practice'
     },
     {
         id: 3,
-        image: IMG1,
-        title: 'Foods website',
-        github: 'https://github.com/Zhadyra98/food_js_practice',
-        demo: 'https://react-icons.github.io/react-icons/search?q=check'
+        image: IMG3,
+        title: 'Меню "Фитнес"',
+        github: 'https://github.com/Zhadyra98/food_js_practice'
     },
     {
         id: 4,
-        image: IMG1,
-        title: 'Foods website',
-        github: 'https://github.com/Zhadyra98/food_js_practice',
-        demo: 'https://react-icons.github.io/react-icons/search?q=check'
+        image: IMG4,
+        title: 'Accounting of company employees',
+        github: 'https://github.com/Zhadyra98/reactApp'
     },
     {
         id: 5,
-        image: IMG1,
-        title: 'Foods website',
-        github: 'https://github.com/Zhadyra98/food_js_practice',
-        demo: 'https://react-icons.github.io/react-icons/search?q=check'
+        image: IMG5,
+        title: 'Marvel Information portal',
+        github: 'https://github.com/Zhadyra98/marvelProject'
     },
     {
         id: 6,
-        image: IMG1,
-        title: 'Foods website',
-        github: 'https://github.com/Zhadyra98/food_js_practice',
-        demo: 'https://react-icons.github.io/react-icons/search?q=check'
+        image: IMG6,
+        title: 'ToDo list',
+        github: 'https://github.com/Zhadyra98/ToDoTask'
     }
 ]
 const Portfolio = () => {
@@ -67,7 +61,6 @@ const Portfolio = () => {
                             <h3>{title}</h3>
                             <div className="portfolio__item-cta">  
                                 <a href={github} className="btn" target='_blank'>Github</a>
-                                <a href={demo} className="btn btn-primary" target='_blank'>Live Demo</a>
                             </div>
                         </article>
                     )
